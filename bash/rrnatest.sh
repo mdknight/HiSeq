@@ -1,1 +1,0 @@
-#!/bin/bash for i in /data/fastq/2018-C8065/test/*_R1_001.fastq.gz; do qsub human_rrna_check2.sh *_R1_001.fastq.gz *_R2_001.fastq.gz 2500000 testrrna.csv; done
